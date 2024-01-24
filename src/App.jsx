@@ -53,7 +53,7 @@ function App() {
                 <h1 className="text-4xl font-bold text-black">Ofertas</h1>
             </div>
 
-            <div className="grid grid-cols-3 gap-14 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 mt-10">
               <div className="flex flex-col gap-2 items-center justify-center">
                 <h2 className="text-3xl font-bold">Platillos especiales</h2>
                 <p className="text-black font-medium text-2xl">$500</p>
@@ -86,7 +86,6 @@ function App() {
             </div>
           </div>
         </section>
-
 
         <section className="mt-20 ">
             <div className="flex flex-col gap-5 items-center justify-center">
